@@ -12,7 +12,7 @@ CHAPTERS_DIR = os.path.join(ROOT, "chapters")
 SUMMARIES_DIR = os.path.join(ROOT, "Summaries")
 QUESTIONS_DIR = os.path.join(ROOT, "Questions")
 BOOK_SUMMARY = os.path.join(ROOT, "book_summary.txt")
-OUT = os.path.join(ROOT, "site", "index.html")
+OUT = os.path.join(ROOT, "index.html")
 
 
 def read_file(path):
@@ -392,7 +392,7 @@ page = f'''<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Christian's Secret of a Happy Life — Study Site</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="site/styles.css">
 </head>
 <body>
 
